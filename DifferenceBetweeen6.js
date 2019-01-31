@@ -8,7 +8,6 @@ var diff = [];
 for (var i = 0; i < inputArray1.length; i++) {
     arr[inputArray1[i]] = true;
 }
-
 for (var j = 0; j < inputArray2.length; j++) {
     if (arr[inputArray2[j]]) {
         delete arr[inputArray2[j]];
